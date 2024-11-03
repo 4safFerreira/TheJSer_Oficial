@@ -10,7 +10,7 @@ function calc(){
     document.getElementById('larg').focus();
 
     mtqds = comp*larg;
-    despesa = mtqds*36.00;
+    despesa = mtqds/36.00;
 }
 
 function show(){
