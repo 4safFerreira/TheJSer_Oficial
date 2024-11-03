@@ -1,0 +1,205 @@
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu{
+    background-color:	#F0E68C;
+    display:grid;
+    grid-template-rows: 65px;
+    grid-template-columns: 120px 120px 140px;
+    column-gap: 70px;
+}
+
+.logo{
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.sobre{
+    align-self: self-end;
+    
+}
+
+.exercicios{
+    margin-top: 45px;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+
+
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.categories{
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 330px 330px;
+    grid-template-columns: 281px 281px 281px;
+    grid-row-gap: 40px;
+    grid-column-gap:140px;
+}
+
+#exercicios-lista{
+    border:solid 2px black;
+    justify-content: center;
+}
+
+#exercicios-lista:hover{
+    transform: scale(1.02);
+}
+
+#exercicios-calculador{
+    border: solid 2px black;
+}
+
+#exercicios-calculador:hover{
+    transform: scale(1.02);
+}
+
+#exercicios-financeiros{
+    border: solid 2px black;
+}
+
+#exercicios-financeiros:hover{
+    transform: scale(1.02);
+}
+
+#exercicios-matematica{
+    border:solid 2px black;
+}
+
+#exercicios-matematica:hover{
+    transform: scale(1.02);
+}
+
+#exercicios-fisica{
+    border:solid 2px black;
+}
+
+#exercicios-fisica:hover{
+    transform: scale(1.02);
+}
+
+#exercicios-quimica{
+    border:solid 2px black;
+}
+
+#exercicios-quimica:hover{
+    transform: scale(1.02);
+}
+
+.list-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+.calc-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+.finance-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+.math-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+.physics-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+
+.chem-img-cat{
+    width:217px;
+    height:175px;
+    margin-left: 10%;
+    margin-top:30px;
+}
+
+.txt-cat{
+    margin-left:10%;
+    margin-top: 20px;
+}
+
+.confira{
+    font-family: Georgia;
+    justify-self:center;
+    padding:40px;
+}
+
+.exsss{
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+.rdm-ex{
+    border:solid 2px black;
+    justify-content:center;
+}
+
+.rdm-ex:hover{
+    transform: scale(1.02);
+}
+
+.rdm-img{
+    margin-left:10%;
+    margin-top:30px;
+}
+
+.rdm-txt{
+    margin-left:10%;
+    margin-top:30px;
+}
+
+.footer{
+    display:grid;
+    grid-template-rows: 65px 22px 22px 22px 22px 22px 22px;
+    grid-template-columns: 120px 259px;
+    background-color: #F0E68C;
+    grid-column-gap:40px;
+    grid-row-gap: 50px;
+}

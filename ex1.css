@@ -1,0 +1,109 @@
+li{
+    list-style-type: none;
+}
+
+body{
+    display:grid;
+    grid-gap:20px;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-bottom:30px;
+    grid-column: 1/-1;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+form{
+    justify-content: center;
+    background-color:#fff9ce;
+    border-top:100px;
+    display:grid;
+    grid-template-columns: 300px 300px 200px;
+    grid-template-rows: 40px 20px 30px 35px 35px;
+    grid-row-gap:20px;
+    grid-column-gap:10px;
+    margin-left:150px;
+    margin-right:150px;
+    padding: 20px;
+}
+
+.subtitulo{
+    border-top: 10%;
+    grid-column: 1/-1;
+}
+
+#valor{
+    border-radius: 8px;
+}
+
+.ins{
+    border: solid 1px rebeccapurple;
+    color: rebeccapurple;
+    background-color:white;
+    border-radius:10px;
+}
+
+.ins:hover{
+    background-color:rebeccapurple;
+    color:white;
+    transform: scale(1.02);
+}
+
+.show{
+    border: solid 1px forestgreen;
+    color: forestgreen;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.show:hover{
+    background-color: forestgreen;
+    color: white;
+    transform: scale(1.02);
+}
+
+.sum{
+    border: solid 1px forestgreen;
+    color: forestgreen;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sum:hover{
+    background-color: forestgreen;
+    color: white;
+    transform: scale(1.02);
+}
+
+.media{
+    border: solid 1px forestgreen;
+    color: forestgreen;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.media:hover{
+    background-color: forestgreen;
+    color: white;
+    transform: scale(1.02);
+}
+
+.oddeven{
+    border: solid 1px forestgreen;
+    color: forestgreen;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.oddeven:hover{
+    background-color: forestgreen;
+    color: white;
+    transform: scale(1.02);
+}

@@ -1,0 +1,19 @@
+body{
+    display:grid;
+    grid-row-gap:40px;
+}
+
+.about{
+    justify-content: center;
+    display:grid;
+    grid-template-rows: 57px 326px 270px;
+    grid-template-columns:448px 448px;
+    margin-top:10px;
+    grid-row-gap:30px;
+}
+
+.titulo{
+    font-size:32px;
+    grid-column:1/-1;
+    justify-self:center;
+}

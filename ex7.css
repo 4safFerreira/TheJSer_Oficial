@@ -1,0 +1,66 @@
+body{
+    display:grid;
+}
+
+form{
+    margin-top:10px;
+    justify-self: center;
+    align-items:center;
+    padding-top:30px;
+    padding-right: 40px;
+    border-radius:10px;
+    background-color: #fff9ce;
+    display: grid;
+    grid-template-rows: 70px 60px 60px 100px;
+    grid-template-columns: 250px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.titulo{
+    grid-column:1/-1;
+    justify-self: center;
+}
+
+.calculo{
+    border: solid 1px red;
+    color:red;
+    justify-self: center;
+    background-color:white;
+    border-radius:10px;
+    padding:10px;
+    width:200px;
+}
+
+.calculo:hover{
+    background-color:red;
+    color:white;
+    transform: scale(1.02);
+}
+
+.show{
+    border: solid 1px forestgreen;
+    color: forestgreen;
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    width:200px;
+}
+
+.show:hover{
+    background-color: forestgreen;
+    color: white;
+    transform: scale(1.02);
+}
+
+#metal{
+    border-radius:10px;
+    padding:10px;
+    width:175px;
+}
+
+#ametal{
+    border-radius:10px;
+    padding:10px;
+    width:175px;
+}

@@ -1,0 +1,8 @@
+body{
+    display:grid;
+}
+
+.carrossel{
+    justify-self:center;
+    margin-top:20px;
+}

@@ -1,0 +1,18 @@
+body{
+    display:grid;
+    grid-gap:40px;
+}
+
+.ex-calc{
+    display: grid;
+    grid-template-rows: 50px 330px;
+    grid-template-columns: 281px 281px 281px;
+    grid-row-gap: 40px;
+    grid-column-gap:140px;
+}
+
+.titulo{
+    justify-self: center;
+    grid-column:1/-1;
+    font-size: 30px;
+}
